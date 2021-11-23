@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+image{
+    vertical-align: middle;
+}
+
+
+/*common css end*/
+
+/*menu part start*/
+
+.logo{
+   background: url(../images/logo.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+
+}
+
+.main_menu{
+    background: #17c8d0;
+    height: 60px;
+    text-align: center;
+}
+
+.main_menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.main_menu ul li a {
+    color: floralwhite;
+    font-size: 20px;
+    font-family:cursive;
+    font-weight:700;
+    line-height: 60px;
+    padding: 0 20px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    display: block;
+}
+
+.main_menu ul li:hover {
+    color: #25de5e;
+    background: #18a07b;
+        
+}
+
+.main_menu ul li ul {
+    position: absolute;
+    left: 0;
+    background: #d8d239;
+    width: 250px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    opacity: 0;
+    visibility: hidden;
+    
+   
+}
+
+.main_menu ul li ul li {
+    width: 100%;
+    text-align: center;
+}
+
+.main_menu ul li:hover > ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.main_menu ul li ul li ul {
+    left: 100%;
+    top: 0;
+}
+
+
+
+/*menu part end*/
+
+
+  .banner{
+    background: url(../images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+   
+        
+}
+
+.bannerh1{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 200px;
+    padding-left: 520px;
+       
+        
+       
+} 
+
+.bannerp1{
+    font-size:17px;
+    font-weight: 200;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 320px;
+    
+        
+}      
+
+.four{
+    height: 200px;
+    background:url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.five{
+    text-align: center;
+    height: 40px;
+    background: #8ac7b4;
+}
+.six{
+    width: 50px;
+    text-align:center
+    
+    
+}
