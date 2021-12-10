@@ -1,0 +1,64 @@
+body{ margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+
+
+}
+/* background start */
+.Background{
+
+padding-bottom: 10px;
+overflow: hidden;
+
+}
+
+.container{
+	/*border:1px solid ;*/
+
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+
+
+
+}
+
+.one{
+
+	float: left;
+
+
+
+	width: 50%;
+
+
+
+}
+
+.s_content h1{
+	text-align: center;
+
+
+
+
+}
+.s_alam{
+
+
+	color:#ef8f0d;
+}
+
+.s_content img{
+
+    height: 400px;
+    width: 300px;
+    margin: 15px 28%;
+}
+
+
+
+
+
+
